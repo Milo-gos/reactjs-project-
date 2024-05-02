@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "settings": {
+        "react": {
+          "version": "detect"
+        }
+    },
+
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": "latest",
+        "ecmaFeatures": {
+            "jsx": true
+          }
+    },
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": [1, {
+            "extensions": [".js", ".jsx"]}
+        ],
+        "prettier/prettier": 0
+    },
+    "extends": [
+
+        "airbnb",
+        "plugin:prettier/recommended"
+    ]
+}
